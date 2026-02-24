@@ -1,0 +1,14 @@
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/bin/Debug/net10.0/cargaExcel
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/bin/Debug/net10.0/cargaExcel.deps.json
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/bin/Debug/net10.0/cargaExcel.runtimeconfig.json
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/bin/Debug/net10.0/cargaExcel.dll
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/bin/Debug/net10.0/cargaExcel.pdb
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.AssemblyInfoInputs.cache
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.AssemblyInfo.cs
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.csproj.CoreCompileInputs.cache
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.dll
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/refint/cargaExcel.dll
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.pdb
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/cargaExcel.genruntimeconfig.cache
+/home/isaac/desarrollo/inteligencia_negocios/cargaExcel/obj/Debug/net10.0/ref/cargaExcel.dll
