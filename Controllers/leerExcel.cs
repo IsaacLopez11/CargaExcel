@@ -107,6 +107,8 @@ namespace cargaExcel.Controllers{
                         Sueldo = sueldo,
                         CiudadRes =  CiudadRes                   
                     });
+
+                    Console.WriteLine($"{tipoDocumento},{numDoc},{nombre},{fecha},{sueldo},{CiudadRes}");
                 }
                 if (errores.Count > 0)
                 {
