@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 using System.Numerics;
 
-namespace CargaExcel.Controllers{
+namespace cargaExcel.Controllers{
     
     public class CargaExcelController{
         private List<Persona> personas = new List<Persona>();
@@ -21,14 +21,14 @@ namespace CargaExcel.Controllers{
                 for (int fila = 2; fila <= filas; fila++)
                 {
                     string tipoDocumento = hoja.Cells[fila,1].Text.Trim().ToUpper();
-                    if (tipoDocumento != "CC" 
-                    || tipoDocumento != "CE" 
-                    || tipoDocumento != "RC"
-                    || tipoDocumento != "TI"
-                    || tipoDocumento != "PPT"
-                    || tipoDocumento != "PEP"
-                    || tipoDocumento != "PT"
-                    )
+                    if (tipoDocumento == "CC" 
+                    || tipoDocumento == "CE" 
+                    || tipoDocumento == "RC"
+                    || tipoDocumento == "TI"
+                    || tipoDocumento == "PPT"
+                    || tipoDocumento == "PEP"
+                    || tipoDocumento == "PT"
+                    ){}else
                     {
                         errores.Add($"Fila: {fila}, tipo de documento es inválido");
                         continue;
@@ -104,10 +104,17 @@ namespace CargaExcel.Controllers{
                         NumDoc = numDoc,
                         Nombre = nombre,
                         FechaNac = fecha,
-                        Sueldo = sueldo                      
+                        Sueldo = sueldo,
+                        CiudadRes =  CiudadRes                   
                     });
                 }
-                
+                if (errores.Count > 0)
+                {
+                    for (int i = 0; i < errores.Count; i++)
+                    {
+                        Console.WriteLine($"{errores[i]}");
+                    }                    
+                }                
             }
 
             return personas;
