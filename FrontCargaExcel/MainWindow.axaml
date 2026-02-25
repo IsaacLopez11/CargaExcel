@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="https://github.com/avaloniaui"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:Avalonia.Controls;assembly=Avalonia.Controls.DataGrid"
+        mc:Ignorable="d"
+        Width="800" Height="600"
+        x:Class="FrontCargaExcel.MainWindow"
+        Title="Carga Excel">
+
+    <StackPanel Margin="20" Spacing="10">
+
+        <Button Content="Subir Excel"
+                Click="OnUploadClick"
+                Width="150"/>
+
+        <controls:DataGrid x:Name="ExcelGrid"
+                           AutoGenerateColumns="True"
+                           Height="450"/>
+
+    </StackPanel>
+
+</Window>
